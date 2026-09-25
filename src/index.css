@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-Lato: "Lato", sans-serif;
+  --font-Poppins:  "Poppins", sans-serif;
+  --font-Raleway:  "Raleway", sans-serif;
+  --color-bacground: #FFFFFF;
+  --color-primary: #285A43;
+  --color-paragraph: #121212;
+  --color-h4: #337A5B;
+  --color-pasage: #F8F8F8;
+  --color-bdyclr: #F5F5F5;
+
+
+  --breakpoint-*: initial;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 78.25rem;
+
+
+
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+body {
+    @apply bg-bdyclr max-w-[1440px] mx-auto; 
+}
+
+h1 {
+    @apply font-Lato text-bacground font-normal text-[64px] ;
+}
+h2 {
+    @apply font-Lato text-primary font-bold text-[36px]  tracking-[4%] leading-[140%];
+}
+
+h3 {
+    @apply font-Lato text-bacground text-[32px] leading-[140%];
+}
+
+h4 {
+    @apply font-Lato text-h4 font-black text-[20px] leading-[140%] ;
+}
+
+h6 {
+    @apply font-Lato text-h4 text-[16px] font-black leading-[140%];
+}
+
+p {
+    @apply font-Raleway text-paragraph  font-medium text-[16px] leading-[150%];
+}
+
+.boxShadow {
+    box-shadow: 10px 20px 10px 0 rgb(0, 0, 0, 0.02);
+}
+
+.myAfter {
+    background: #000;
+}
+
+
