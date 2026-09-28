@@ -14,7 +14,7 @@ const Nav = () => {
                             <li ><a href="#mainManu" className="myAfter">Home</a></li>
                             <li><a href="#abtUs" className="myAfter">About Us</a></li>
                             <li><a href="#ourOffer" className="myAfter">Planters</a></li>
-                            <li><a href="#"className="myAfter">Contact</a></li>
+                            <li><a href="#contactUs"className="myAfter">Contact</a></li>
                         </ul>
                     </div>
                     <Button className={`rounded-[3px] border-2 border-bacground`}><h5 className='py-[11px] px-[50px] font-Lato font-bold text-[16px] text-bacground'>Call Us</h5></Button>

@@ -1,7 +1,10 @@
 import About from "./assets/components/about";
 import Banner from "./assets/components/banner";
-import Email from "./assets/components/email";
+import Blog from "./assets/components/blog";
+import CopyRight from "./assets/components/copyRight";
+import Footer from "./assets/components/footer";
 import Gallary from "./assets/components/gallary";
+import InputEmail from "./assets/components/inputEmail";
 import Nav from "./assets/components/Nav";
 import Offer from "./assets/components/offer";
 import Production from "./assets/components/production";
@@ -20,7 +23,10 @@ const App = () => {
     <Production/>
     <Gallary/>
     <About/>
-    <Email/>
+    <InputEmail/>
+    <Blog/>
+    <Footer/>
+    <CopyRight/>
 
     </>
   );

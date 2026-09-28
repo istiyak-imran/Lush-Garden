@@ -8,7 +8,7 @@ const Banner = () => {
   };
   
   return (
-    <Section className='mx- auto' style={styles} relative>
+    <Section style={styles} relative>
        <div className='w-[719px] mx-auto pt-[211px] '><h1>  Beauty Delivered to You</h1></div>
       <div className='w-[787px] mx-auto'>
         <h5 className='text-center font-Poppins font-medium text-[18px] leading-[140%] text-pasage py-10'>Nature's beauty is just a click away with our online flower and plant shop. 

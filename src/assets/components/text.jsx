@@ -6,7 +6,7 @@ import TextHeading from "./textHeading"
 
 const Text = () => {
   return (
-    <Section id={"abtUs"}>
+    <Section>
         <Container >
             <div className="flex justify-between items-center py-[90px]">
                  <div className="max-w-[476px]">

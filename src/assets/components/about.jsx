@@ -7,7 +7,7 @@ import Section from './section'
 
 const About = () => {
   return (
-    <Section>
+    <Section className={'pb-30'} id={"abtUs"}>
         <div className='text-center pb-9'>
             <TextHeading heading={"What do they say about us"}/>
         </div>
