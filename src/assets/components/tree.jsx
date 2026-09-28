@@ -7,8 +7,7 @@ import TreeTwo from './treeTwo'
 
 const Tree = () => {
   return (
-    <Section>
-        <Container>
+    <Section >
             <div className='flex justify-between pb-[120px]'>
                 <TreeBox></TreeBox>
                 <TreeOne></TreeOne>
@@ -17,7 +16,6 @@ const Tree = () => {
             </div>
 
 
-        </Container>
     </Section>
   )
 }

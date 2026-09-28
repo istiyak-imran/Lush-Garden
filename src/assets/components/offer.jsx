@@ -9,25 +9,22 @@ import TobFive from './tobFive'
 import TobSix from './tobSix'
 import TobSeven from './tobSeven'
 import TobEight from './tobEight'
+import TextHeading from './textHeading'
 
 const Offer = () => {
   return (
-    <Section>
-        <Container>
-            <div><h2 className='text-center pb-9'>What we offer to you</h2></div>
-            <div className='flex justify-between pb-10'>
+    <Section id={"ourOffer"}>
+            <div className='text-center pb-9'><TextHeading heading={"What we offer to you"}/></div>
+            <div className='grid grid-cols-4 gap-4 pb-30'>
              <TobOne></TobOne>
              <TobTwo></TobTwo>
              <TobThree></TobThree>
              <TobFour></TobFour>
-            </div>
-            <div className='flex justify-between pb-30'>
               <TobFive></TobFive>
              <TobSix></TobSix>
              <TobSeven></TobSeven>
              <TobEight></TobEight>
             </div>
-        </Container>
     </Section>
   ) 
 }

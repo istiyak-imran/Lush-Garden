@@ -15,7 +15,7 @@ const Banner = () => {
          We offer a wide variety of flowers that will bring a touch of nature to your home!</h5>
       </div>
       <div className='pb-[400px] flex justify-center gap-3'>
-        <Button className={`rounded-[3px] border-2 border-bacground`}>
+        <Button className={`rounded-[3px] border-2 border-primary bg-primary`}>
           <h5 className='py-[11px] px-[50px] font-Lato font-semibold text-[14px] text-bacground'>Book Now</h5>
           </Button> 
         <Button className={`rounded-[3px] border-2 border-bacground`} >

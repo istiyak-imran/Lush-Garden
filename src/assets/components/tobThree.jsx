@@ -1,13 +1,13 @@
 import tobThree from '../tob-3.png'
-import love from '../love.png'
 import Button from './button'
+import ImageToggle from './imageToggle'
 
 
 const TobThree = () => {
   return (
     <div className='max-w-[280px] relative'>
-        <div className='p-2 bg-bacground absolute top-[15px] right-[15px] rounded-[50%]'>
-        <img src={love} alt="love" />
+        <div className='p-2 bg-white absolute top-[15px] right-[15px] rounded-[50%]'>
+        <ImageToggle />
         </div>
         <img src={tobThree} alt="tob-1"/>
         <div className='flex items-center gap-10 px-5 py-4'>

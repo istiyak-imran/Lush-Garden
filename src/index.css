@@ -37,16 +37,8 @@ body {
 h1 {
     @apply font-Lato text-bacground font-normal text-[64px] ;
 }
-h2 {
-    @apply font-Lato text-primary font-bold text-[36px]  tracking-[4%] leading-[140%];
-}
-
-h3 {
-    @apply font-Lato text-bacground text-[32px] leading-[140%];
-}
-
 h4 {
-    @apply font-Lato text-h4 font-black text-[20px] leading-[140%] ;
+    @apply font-Lato font-black text-[20px] leading-[140%] ;
 }
 
 h6 {
@@ -54,15 +46,17 @@ h6 {
 }
 
 p {
-    @apply font-Raleway text-paragraph  font-medium text-[16px] leading-[150%];
+    @apply font-Raleway  font-medium text-[16px] leading-[150%];
 }
+
+@layer utilities {
 
 .boxShadow {
     box-shadow: 10px 20px 10px 0 rgb(0, 0, 0, 0.02);
 }
 
 .myAfter {
-    background: #000;
+    @apply relative hover:font-extrabold hover:text-primary hover:text-[24px] after:content-[""] after:absolute after:bg-bdyclr after:w-0 after:h-0.5 after:-bottom-1 after:left-1/2 after:-translate-x-1/2 hover:after:w-full after:transition-all after:duration-300;
 }
-
+}
 
